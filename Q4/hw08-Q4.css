@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(194, 194, 190);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.container1 {
+    background-color: rgb(44, 41, 41);
+    color: aliceblue;
+    padding: 100px 100px;
+    line-height: 20px;
+
+}
+
+
+
+.btn {
+    background-color: rgb(44, 41, 41);
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid rgb(131, 125, 125);
+    margin: 20px;
+
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+
+.container2 {
+    width: 68%;
+    margin: 0 auto;
+    color: black;
+    padding: 30px 100px;
+}
+
+.par {
+    column-count: 2;
+    gap: 10;
+    text-align: start;
+    word-break: break-all;
+    line-height: 23px;
+}
+
+#headcon2 {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.container3 {
+    background-color: rgb(44, 41, 41);
+    display: flex;
+    padding: 10px 100px;
+}
+
+
+.boxes {
+    margin: 10px 215px;
+    display: flex;
+
+}
+
+.box {
+    background-color: white;
+    color: black;
+    line-height: 23px;
+    padding: 30px 5px;
+    margin: 5px;
+
+
+}
+
+.title {
+    padding: 30px 0px;
+}
+
+.container4 {
+    padding: 50px 100px;
+    background-color: white;
+}
+
+.container5 {
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+}
+
+#leftBox {
+    background-color: rgb(61, 173, 224);
+    color: white;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+#rightBox {
+    background-color: rgb(44, 41, 41);
+    color: white;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.paragraph {
+    padding-bottom: 30px;
+}
+
+#email {
+    padding-bottom: 30px;
+}
+
+
+footer {
+    padding: 10px 250px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+#right {
+    display: flex;
+    margin: 2px 20px;
+}
+
+#left {
+    margin: 2px 20px;
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(34, 155, 211);
+    margin-left: 5px;
+}
